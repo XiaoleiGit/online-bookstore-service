@@ -1,4 +1,4 @@
-package org.zand.controller;
+package org.company.controller;
 
 import io.swagger.v3.oas.annotations.Operation;
 import jakarta.validation.Valid;
@@ -6,12 +6,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import org.zand.common.BaseResponse;
-import org.zand.controller.requestVO.AddBookToCartReq;
-import org.zand.controller.requestVO.CreateBookReq;
-import org.zand.entity.Book;
-import org.zand.model.ShoppingCart;
-import org.zand.service.BookService;
+import org.company.common.BaseResponse;
+import org.company.controller.requestVO.AddBookToCartReq;
+import org.company.controller.requestVO.CreateBookReq;
+import org.company.entity.Book;
+import org.company.model.ShoppingCart;
+import org.company.service.BookService;
 
 import java.util.List;
 

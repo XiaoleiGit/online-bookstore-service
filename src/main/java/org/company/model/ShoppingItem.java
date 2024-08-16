@@ -1,16 +1,16 @@
-package org.zand.model;
+package org.company.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ShoppingCart {
-    private List<ShoppingItem> items;
+public class ShoppingItem {
+    private String bookId;
+    private BookInfo bookInfo;
+    private int amount;
 }

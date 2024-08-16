@@ -1,4 +1,4 @@
-package org.zand.common;
+package org.company.common;
 
 import org.springframework.http.HttpStatusCode;
 import org.springframework.web.server.ResponseStatusException;

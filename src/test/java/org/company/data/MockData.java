@@ -1,8 +1,8 @@
-package org.zand.data;
+package org.company.data;
 
-import org.zand.controller.requestVO.CreateBookReq;
-import org.zand.entity.Book;
-import org.zand.enums.BookCategory;
+import org.company.controller.requestVO.CreateBookReq;
+import org.company.entity.Book;
+import org.company.enums.BookCategory;
 
 import java.util.UUID;
 

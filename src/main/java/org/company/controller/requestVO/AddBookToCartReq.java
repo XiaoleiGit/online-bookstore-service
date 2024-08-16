@@ -1,4 +1,4 @@
-package org.zand.controller.requestVO;
+package org.company.controller.requestVO;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;

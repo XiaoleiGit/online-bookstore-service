@@ -1,4 +1,4 @@
-package org.zand.common;
+package org.company.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package org.zand.enums;
+package org.company.enums;
 
 public enum BookCategory {
     FICTION,

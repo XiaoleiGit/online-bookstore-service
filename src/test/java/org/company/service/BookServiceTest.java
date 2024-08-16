@@ -1,4 +1,4 @@
-package org.zand.service;
+package org.company.service;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -8,17 +8,17 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.BeanUtils;
 import org.springframework.cache.Cache;
 import org.springframework.cache.CacheManager;
-import org.zand.common.BaseResponse;
-import org.zand.common.BusinessException;
-import org.zand.common.ErrorMessageEnum;
-import org.zand.controller.requestVO.CreateBookReq;
-import org.zand.data.MockData;
-import org.zand.entity.Book;
-import org.zand.enums.BookCategory;
-import org.zand.model.BookInfo;
-import org.zand.model.ShoppingCart;
-import org.zand.model.ShoppingItem;
-import org.zand.repository.BookRepository;
+import org.company.common.BaseResponse;
+import org.company.common.BusinessException;
+import org.company.common.ErrorMessageEnum;
+import org.company.controller.requestVO.CreateBookReq;
+import org.company.data.MockData;
+import org.company.entity.Book;
+import org.company.enums.BookCategory;
+import org.company.model.BookInfo;
+import org.company.model.ShoppingCart;
+import org.company.model.ShoppingItem;
+import org.company.repository.BookRepository;
 
 import java.util.List;
 

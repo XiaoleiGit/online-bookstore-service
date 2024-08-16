@@ -1,4 +1,4 @@
-package org.zand.common;
+package org.company.common;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;

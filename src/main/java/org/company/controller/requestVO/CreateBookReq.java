@@ -1,10 +1,10 @@
-package org.zand.controller.requestVO;
+package org.company.controller.requestVO;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NonNull;
-import org.zand.enums.BookCategory;
+import org.company.enums.BookCategory;
 
 @Data
 @Builder

@@ -1,4 +1,4 @@
-package org.zand.common;
+package org.company.common;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

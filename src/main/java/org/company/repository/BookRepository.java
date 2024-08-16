@@ -1,9 +1,9 @@
-package org.zand.repository;
+package org.company.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
-import org.zand.entity.Book;
+import org.company.entity.Book;
 
 import java.util.List;
 

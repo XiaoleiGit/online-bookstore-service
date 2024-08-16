@@ -1,4 +1,4 @@
-package org.zand.model;
+package org.company.model;
 
 import lombok.*;
 

@@ -1,4 +1,4 @@
-package org.zand.entity;
+package org.company.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
